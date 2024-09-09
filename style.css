@@ -38,8 +38,6 @@ h1 {
     height: 35vh;
     background-image: url(./img/FilmeEmDestaque.jpg);
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
 }
 
 .text {
@@ -48,20 +46,48 @@ h1 {
 }
 
 .grid_top3 {
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
     justify-content: start;
-    gap: 40px;
+    gap: 100px;
 }
 
-.grid_top3 img {
-    max-width: 100%;
-    z-index: 1;
+.top {
+    position: relative;
+    text-align: start;
 }
 
-.grid_top3 h1 {
-    z-index: 2;
+.top h1 {
     position: absolute;
-    font-size: 150px;
+    top: -25%;
+    left: 40px;
+    transform: translate(-50%, -50%);
+    font-size: 170px;
+    color: rgba(255, 255, 255, 0.2); 
+    z-index: 1; 
+}
+
+.top img {
+    width: 200px;
+    height: auto;
+    z-index: 2;
+    position: relative;
+    left: 60px;
+}
+
+.top h3, .top span {
+    position: relative;
+    z-index: 3;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    left: 60px;
+}
+
+.top h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.top span {
+    font-size: 14px;
 }
