@@ -24,42 +24,37 @@ header .logo img{
     max-width: 150px;
 }
 
-
-
-/* a { */
-    /* text-decoration: none; */
-    /* display: inline-block; */
-    /* border-radius: 4px; */
-    /* background-color: gray; */
-    /* color: black; */
-    /* padding: 5px; */
-/* } */
-
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
+
 .navigation{
 display: flex;
 }
+
 .navigation li{
     list-style: none;
     margin: 0 10px;
 }
+
 .navigation li a{
     color: #fff;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
 }
+
 .navigation li:hover a{
     color: #de0611;
 }
+
 .search{
     position: relative;
     width: 300px;
     height: 40px;
 }
+
 .search input{
     position: absolute;
     top: 0;
@@ -74,9 +69,11 @@ display: flex;
     padding: 0 10px 0 45px  ;
     backdrop-filter: blur(10px);
 }
+
 .search input::placeholder{
     color: #fff;
 }
+
 .search .fa-search{
     position: absolute;
     top: 50%;
@@ -99,7 +96,6 @@ display: flex;
 
 .text {
     position: relative;
-    
 }
 
 .grid_top3 {
@@ -147,4 +143,10 @@ display: flex;
 
 .top span {
     font-size: 14px;
+}
+
+.series {
+    display: grid;
+    width: 200px;
+    height: auto;
 }
