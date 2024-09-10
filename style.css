@@ -7,7 +7,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: rgb(0, 0, 0);
+    background: rgb(1, 9, 37);
     max-width: 1000px;
 }
 header{
@@ -27,7 +27,7 @@ header .logo img{
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: rgb(192, 192, 192);
 }
 
 .navigation{
@@ -47,7 +47,7 @@ display: flex;
 }
 
 .navigation li:hover a{
-    color: #de0611;
+    color: #ff0000;
 }
 
 .search{
@@ -93,7 +93,7 @@ display: flex;
     margin-top: 150px;
     background-image: url(./img/avgfoto.jpg);
     background-size: cover;
-    border-radius: 40px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,19 +103,24 @@ display: flex;
   
 .logo_avg {
     width: 300px;
+    padding-left: 10px;
 }
   
 .movie-info {
-    padding: 20px;
+    padding: 30px;
 }
 
 .movie-info a {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: black;
-    background: rgb(255, 145, 0);
+    background: #b9babb;
     padding: 10px;
     border-radius: 10px;
+}
+
+.movie-info img {
+    width: 15px;
 }
 
 .grid_top3 {
@@ -139,7 +144,7 @@ display: flex;
     z-index: 1; 
 }
 
-.top img {
+.top a img {
     width: 200px;
     height: auto;
     z-index: 2;
@@ -149,7 +154,12 @@ display: flex;
     transition: 0.2s;
     border-radius: 10px;
 }
-.top img:hover {
+
+.top span img {
+    width: 15px;
+  }
+
+.top a img:hover {
     transform: translateY(-10px);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   }
@@ -200,4 +210,9 @@ display: flex;
     transform: translateY(-10px);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   }
+
+.row span img {
+    width: 15px;
+}
+
 
