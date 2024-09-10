@@ -88,10 +88,15 @@ display: flex;
 .highlight {
     color: white;
     max-width: 100%;
-    height: 35vh;
-    background-image: url(./img/FilmeEmDestaque.jpg);
+    height: 40vh;
+    background-image: url(./img/avgfoto.jpg);
     background-size: cover;
     margin-top: 150px;
+}
+
+.logo_avg { 
+    width: 300px;
+    
 }
 
 .text {
