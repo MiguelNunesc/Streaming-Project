@@ -3,24 +3,17 @@
 
 body {
     margin:0;
-    margin-left: 20px;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background: rgb(1, 9, 37);
-    width: 1000px;
 }
 header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px 30px ;
-    z-index: 100;
+    padding: 30px ;
 }
+
 header .logo img{
     max-width: 150px;
 }
@@ -32,8 +25,6 @@ h1 {
 
 .navigation{
     display: flex;
-    margin-left: 60px;
-    margin-right: 60px;
 }
 
 .navigation li{
@@ -59,9 +50,6 @@ h1 {
 }
 
 .search input{
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     color: #fff;
@@ -88,18 +76,19 @@ h1 {
 
 }
 
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
 .movie-card {
-    position: relative;
-    width: 1000px;
     height: 50vh;
-    margin-top: 150px;
     background-image: url(./img/avgfoto.jpg);
     background-size: cover;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     color: white;
   }
   
@@ -109,7 +98,7 @@ h1 {
 }
   
 .movie-info {
-    padding: 30px;
+    padding-left: 30px;
 }
 
 .movie-info a {
@@ -127,8 +116,7 @@ h1 {
 
 .grid_top3 {
     display: flex;
-    justify-content: start;
-    gap: 95px;
+    justify-content: space-around;
 }
 
 .top {
@@ -199,7 +187,6 @@ h1 {
 
 .grid_recents {
     display: grid;
-    justify-content: start;
     gap: 50px;
     grid-template-columns: 1fr 1fr 1fr;
 }
