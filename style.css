@@ -128,7 +128,7 @@ main {
 
 .grid_top3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .top {
@@ -189,10 +189,9 @@ main {
     margin-bottom: 40px;
 }
 
-.sessao a{
+.buttonall a{
+    color: #5e17eb;
     text-decoration: none;
-    color: black;
-    background-color: #b9babb;
     border-radius: 4px;
     padding: 5px;
 }
