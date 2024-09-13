@@ -21,7 +21,7 @@ header .logo img{
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #5e17eb;
+    color: #8a8a8a;
 }
 
 main {
@@ -46,7 +46,7 @@ main {
 }
 
 .navigation li:hover a{
-    color: #5e17eb;
+    color: #8a8a8a;
 }
 
 .search{
@@ -155,5 +155,5 @@ main {
 
 ::-webkit-scrollbar-thumb {
     width: 10px;
-    background-color: #5e17eb;
+    background-color: #8a8a8a;
 }

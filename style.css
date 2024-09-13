@@ -84,7 +84,7 @@ main {
 
 .movie-card {
     height: 50vh;
-    background-image: url(./img/avgfoto.jpg);
+    background-image: url(./img/avgfoto.png);
     background-size: cover;
     border-radius: 10px;
     display: flex;
@@ -128,7 +128,7 @@ main {
 
 .grid_top3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .top {
@@ -190,7 +190,7 @@ main {
 }
 
 .buttonall a{
-    color: #5e17eb;
+    color: #8a8a8a;
     text-decoration: none;
     border-radius: 4px;
     padding: 5px;
@@ -256,5 +256,5 @@ main {
 
 ::-webkit-scrollbar-thumb {
     width: 10px;
-    background-color: #5e17eb;
+    background-color: #8a8a8a;
 }
