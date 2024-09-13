@@ -21,7 +21,7 @@ header .logo img{
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #5e17eb;
+    color: #8a8a8a;
 }
 
 main {
@@ -46,7 +46,7 @@ main {
 }
 
 .navigation li:hover a{
-    color: #5e17eb;
+    color: #8a8a8a;
 }
 
 .search{
@@ -91,7 +91,8 @@ main {
     flex-direction: column;
     justify-content: center;
     color: white;
-  }
+    background-color: rgba(0, 0, 0, 0.5);
+}
   
 .logo_avg {
     width: 300px;
@@ -114,9 +115,15 @@ main {
     align-items: center;
   }
   
-  .play-button img {
+.play-button img {
     width: 30px;
     margin-right: 10px;
+}
+
+.sessao {
+    display: flex;
+    align-items: center;
+    gap: 15px;
   }
 
 .grid_top3 {
