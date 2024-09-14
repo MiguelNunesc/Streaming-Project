@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+ 
+
+body {
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/img/models/onedirection.jpg);
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #000000, #c8c8c800);
+    /* backdrop-filter: blur(10px); */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+header .logo img{
+    max-width: 150px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #8a8a8a;
+}
+
+main {
+    max-width: 100%;
+    
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation li{
+    list-style: none;
+    margin: 0 30px;
+}
+
+.navigation li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.navigation li:hover a{
+    color: #8a8a8a;
+}
+
+.search{
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+
+.search input{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 2555, 0.5);
+    outline: none;
+    border-radius: 4px;
+    padding: 0 10px 0 45px  ;
+    backdrop-filter: blur(10px);
+}
+
+.search input::placeholder{
+    color: #fff;
+}
+
+.search .fa-search{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding-right: 10px;
+    color: #fff;
+    border-right: 1px solid #fff;
+
+}
+
+.grid {
+    max-width: 30%;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.logo1D {
+    width: 50%;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+}
+
+.infos img {
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    width: 6%;
+}
+
+.infos span {
+    margin-top: 6px;
+}
+
+.film {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+.film img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+#footer {
+    background-color: #080808;
+    padding: 20px;
+    margin-top: 130px;
+    color: #fff;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #8a8a8a;
+}
