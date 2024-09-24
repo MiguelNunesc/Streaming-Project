@@ -124,7 +124,9 @@ main {
     display: flex;
     align-items: center;
     gap: 15px;
-  }
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
 .grid_top3 {
     display: flex;
@@ -182,11 +184,6 @@ main {
 
 .top span {
     font-size: 14px;
-}
-
-.sessao{
-    margin-top: 50px;
-    margin-bottom: 40px;
 }
 
 .buttonall a{
