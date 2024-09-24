@@ -148,6 +148,7 @@ main {
     z-index: 1; 
 }
 
+
 .top a img {
     width: 250px;
     height: auto;
@@ -158,6 +159,10 @@ main {
     transition: 0.3s;
     border-radius: 10px;
 }
+header li a img{
+    width: 15px;
+}
+
 
 .top span img {
     width: 15px;

@@ -15,6 +15,10 @@ header{
     background-color: #080808;
 }
 
+header li a img{
+    width: 15px;
+}
+
 header .logo img{
     max-width: 150px;
 }

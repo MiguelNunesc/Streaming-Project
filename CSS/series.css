@@ -7,6 +7,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background: rgb(0, 0, 0);
 }
+header li a img{
+    width: 15px;
+}
 header{
     display: flex;
     justify-content: space-around;
