@@ -8,6 +8,9 @@ body {
     height: 100vh;
     display: grid;
 }
+header li a img{
+    width: 15px;
+}
 
 body::before{
     content: "";
